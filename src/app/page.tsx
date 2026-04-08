@@ -158,13 +158,10 @@ function Navbar() {
         {/* Logo */}
         <a
           href="#"
-          className="flex items-center gap-2 group focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 rounded-lg px-1"
+          className="group focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900 rounded-lg px-1"
           aria-label="FireLirn home"
         >
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-neutral-900 shadow-sm transition-transform group-hover:scale-105">
-            <FlameIcon className="h-5 w-5" />
-          </div>
-          <span className="text-base font-bold tracking-tight text-neutral-900">
+          <span className="text-base font-bold tracking-tight text-neutral-900 transition-colors group-hover:text-neutral-600">
             FireLirn
           </span>
         </a>
@@ -847,10 +844,7 @@ function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-8 sm:px-8 lg:px-10">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-neutral-900">
-              <FlameIcon className="h-4 w-4" />
-            </div>
+          <div className="flex items-center">
             <span className="text-sm font-bold text-neutral-900">FireLirn</span>
           </div>
 

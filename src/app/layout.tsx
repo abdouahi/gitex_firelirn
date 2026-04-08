@@ -85,45 +85,74 @@ export const metadata: Metadata = {
   category: "technology",
 };
 
-// JSON-LD structured data
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "FireLirn",
-  url: SITE_URL,
-  logo: `${SITE_URL}/favicon.ico`,
-  description:
-    "FireLirn helps educational institutions detect learning difficulties earlier so student guidance becomes more timely, accurate, and effective.",
-  email: "firelirn@gmail.com",
-  telephone: "+212698588262",
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "MA",
-    addressLocality: "Marrakech",
+// JSON-LD structured data — two schemas help Google understand the brand
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    name: "FireLirn",
+    alternateName: "FireLirn EdTech",
+    url: SITE_URL,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/og-image.png`,
+      width: 1200,
+      height: 630,
+    },
+    description:
+      "FireLirn helps educational institutions detect learning difficulties earlier so student guidance becomes more timely, accurate, and effective.",
+    email: "firelirn@gmail.com",
+    telephone: "+212698588262",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "MA",
+      addressLocality: "Marrakech",
+    },
+    foundingDate: "2026",
+    founders: [
+      {
+        "@type": "Person",
+        name: "Abdessamad Ouahidi",
+        jobTitle: "Founder & CEO",
+        url: "https://www.linkedin.com/in/abdessamad-ouahidi/",
+      },
+      {
+        "@type": "Person",
+        name: "Ayoub Sbai",
+        jobTitle: "Co-Founder & CTO",
+        url: "https://www.linkedin.com/in/ayoub-sbai/",
+      },
+    ],
+    sameAs: ["https://www.linkedin.com/company/firelirn/"],
+    knowsAbout: [
+      "Learning Difficulty Detection",
+      "Educational Technology",
+      "Student Academic Support",
+      "EdTech Morocco",
+    ],
   },
-  foundingDate: "2026",
-  founders: [
-    {
-      "@type": "Person",
-      name: "Abdessamad Ouahidi",
-      jobTitle: "Founder & CEO",
-      url: "https://www.linkedin.com/in/abdessamad-ouahidi/",
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    name: "FireLirn",
+    url: SITE_URL,
+    description:
+      "FireLirn — Early Learning Difficulty Detection for Educational Institutions. A Moroccan EdTech startup.",
+    publisher: {
+      "@id": `${SITE_URL}/#organization`,
     },
-    {
-      "@type": "Person",
-      name: "Ayoub Sbai",
-      jobTitle: "Co-Founder & CTO",
-      url: "https://www.linkedin.com/in/ayoub-sbai/",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
     },
-  ],
-  sameAs: ["https://www.linkedin.com/company/firelirn/"],
-  knowsAbout: [
-    "Learning Difficulty Detection",
-    "Educational Technology",
-    "Student Academic Support",
-    "EdTech",
-  ],
-};
+  },
+];
 
 export default function RootLayout({
   children,
