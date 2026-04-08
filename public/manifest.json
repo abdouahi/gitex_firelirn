@@ -1,0 +1,17 @@
+{
+  "name": "FireLirn",
+  "short_name": "FireLirn",
+  "description": "Early Learning Difficulty Detection for Educational Institutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#171717",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
