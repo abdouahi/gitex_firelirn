@@ -79,7 +79,7 @@ export default function CookieBanner() {
                   We use essential cookies and Google Fonts to ensure the best
                   experience. No tracking or third-party analytics.{" "}
                   <a
-                    href="mailto:firelirn@gmail.com?subject=Privacy%20Inquiry"
+                    href="mailto:contact@firelirn.com?subject=Privacy%20Inquiry"
                     className="underline underline-offset-2 hover:text-neutral-900 transition-colors"
                   >
                     Questions? Contact us.

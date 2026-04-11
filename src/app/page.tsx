@@ -57,7 +57,7 @@ const company = {
   name: "FireLirn",
   tagline: "Early Learning Difficulty Detection for Educational Institutions",
   stand: "Hall 23 · Stand 23C-13",
-  email: "firelirn@gmail.com",
+  email: "contact@firelirn.com",
   phoneDisplay: "+212 698 588 262",
   phoneRaw: "+212698588262",
   linkedin: "https://www.linkedin.com/company/firelirn/",
