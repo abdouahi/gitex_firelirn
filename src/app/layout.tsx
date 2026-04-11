@@ -102,7 +102,7 @@ const jsonLd = [
     },
     description:
       "FireLirn helps educational institutions detect learning difficulties earlier so student guidance becomes more timely, accurate, and effective.",
-    email: "firelirn@gmail.com",
+    email: "contact@firelirn.com",
     telephone: "+212698588262",
     address: {
       "@type": "PostalAddress",
