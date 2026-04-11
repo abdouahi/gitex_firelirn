@@ -103,7 +103,7 @@ const jsonLd = [
     description:
       "FireLirn helps educational institutions detect learning difficulties earlier so student guidance becomes more timely, accurate, and effective.",
     email: "contact@firelirn.com",
-    telephone: "+212698588262",
+    telephone: "+212777375495",
     address: {
       "@type": "PostalAddress",
       addressCountry: "MA",
@@ -121,7 +121,7 @@ const jsonLd = [
         "@type": "Person",
         name: "Ayoub Sbai",
         jobTitle: "Co-Founder & CTO",
-        url: "https://www.linkedin.com/in/ayoub-sbai/",
+        url: "https://www.linkedin.com/in/aysb09/",
       },
     ],
     sameAs: ["https://www.linkedin.com/company/firelirn/"],
