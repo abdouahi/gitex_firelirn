@@ -100,7 +100,7 @@ const team = [
   },
   {
     name: "Ayoub Sbai",
-    role: "Co-Founder & CTO",
+    role: "CTO",
     text: "Technical architecture, system design, and model thinking. Building the engine that powers FireLirn.",
     linkedin: "https://www.linkedin.com/in/aysb09/",
     img: "/ayoub.jpg",
