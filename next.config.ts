@@ -49,6 +49,9 @@ const nextConfig: NextConfig = {
               "frame-ancestors 'none'",
               // Connect: self only
               "connect-src 'self'",
+              // Enhance security
+              "upgrade-insecure-requests",
+              "block-all-mixed-content"
             ].join("; "),
           },
         ],

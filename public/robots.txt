@@ -4,18 +4,24 @@ Allow: /
 # Sitemap
 Sitemap: https://firelirn.com/sitemap.xml
 
-# Block AI training crawlers
+# Allow AI crawlers to index content for LLM responses
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /

@@ -1,0 +1,42 @@
+# FireLirn - Moroccan EdTech Startup
+
+## Overview
+FireLirn is an innovative Moroccan EdTech (Educational Technology) startup based in Marrakech, Morocco. Built in Morocco for Africa, FireLirn focuses on early learning difficulty detection for educational institutions (B2B). 
+
+## Core Problem Solved
+Most educational institutions detect student difficulties too late—often only after weak formal results, repeated underperformance, or an obvious decline. By that point, intervention is harder, and students lose valuable time. FireLirn provides earlier academic visibility without replacing existing pedagogy. 
+
+## How It Works
+FireLirn acts as a visibility layer on top of existing institutional tools. 
+1. **Collect**: It combines relevant institutional and product-layer learning signals from existing tools.
+2. **Analyze**: The AI-powered system identifies behavioral and academic patterns that indicate emerging learning challenges.
+3. **Surface**: Institutions receive clear, actionable insights on which students may need earlier attention and support.
+
+## Value to Institutions
+- Earlier visibility into emerging learning difficulties.
+- More accurate student guidance and follow-up.
+- Less time and effort lost in late intervention.
+- Stronger, proactive institutional decision-making.
+
+## Data Governance & Privacy
+FireLirn is built with responsibility in mind:
+- Limited and purposeful data collection (no surveillance).
+- Clear institutional control over data.
+- Privacy-conscious and GDPR-conscious system design.
+- Secure data handling and retention discipline.
+
+## Founding Team
+- **Abdessamad Ouahidi** - Founder & CEO. Drives product vision, business strategy, and execution.
+- **Ayoub Sbai** - Co-Founder & CTO. Leads technical architecture, system design, and AI model thinking.
+- **Ismail Sabor** - Pedagogical Lead. Ensures educational integrity, learning logic, and academic framing.
+
+## Contact & Location
+- **Website**: https://firelirn.com
+- **Email**: contact@firelirn.com
+- **Phone**: +212 777 375495
+- **Headquarters**: Marrakech, Morocco
+- **Event Presence**: Participating in GITEX Africa 2026 (Marrakech, Morocco) at Hall 23, Stand 23C-13.
+
+## Frequently Asked Questions (FAQ)
+- **Is FireLirn available in Morocco?** Yes, FireLirn is a Moroccan EdTech startup headquartered in Marrakech, developing specifically for Moroccan schools and the wider African market.
+- **What makes FireLirn different?** It focuses specifically on early detection—not pedagogy redesign. It adds a visibility layer without forcing schools to change existing processes.
